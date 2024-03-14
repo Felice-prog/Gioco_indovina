@@ -1,0 +1,1 @@
+H:\Il\ mio\ Drive\INFORMATICA\ESEMPI_CODICE\RUST\PROG_BASE_SC\gioco_inndovina\target\debug\gioco_inndovina.exe: H:\Il\ mio\ Drive\INFORMATICA\ESEMPI_CODICE\RUST\PROG_BASE_SC\gioco_inndovina\src\main.rs
