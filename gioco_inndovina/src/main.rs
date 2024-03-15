@@ -4,6 +4,7 @@ use std::cmp::Ordering;
 fn main() {
     println!("Indovina il numero!\n");
     let numero_segreto = rand::thread_rng().gen_range(1..=100);
+    loop {
     println!("Perfavore introduci il tuo numero!\n");
     let mut indovina = String::new();
     io::stdin()
@@ -15,7 +16,12 @@ fn main() {
     match indovina.cmp(&numero_segreto) {
         Ordering::Less => println!("il numero è troppo piccolo"),
         Ordering::Greater => println!("il numero è troppo grande"),
-        Ordering::Equal => println!("il numero è esatto "),
+        Ordering::Equal => {
+            println!("il numero è esatto ", );
+            break;
+        }
         
+ 
     }
+  }
 }
